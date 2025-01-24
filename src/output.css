@@ -639,6 +639,11 @@ video {
   margin-right: auto;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -755,6 +760,18 @@ video {
   width: 93%;
 }
 
+.w-\[92\%\] {
+  width: 92%;
+}
+
+.w-\[80px\] {
+  width: 80px;
+}
+
+.w-\[120px\] {
+  width: 120px;
+}
+
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -849,6 +866,10 @@ video {
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -975,6 +996,11 @@ video {
   background-color: rgb(107 114 128 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#F3F4F6\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[url\(\)\] {
   background-image: url();
 }
@@ -993,6 +1019,10 @@ video {
 
 .p-\[15px\] {
   padding: 15px;
+}
+
+.p-\[25px\] {
+  padding: 25px;
 }
 
 .px-4 {
@@ -1133,6 +1163,10 @@ video {
 .px-\[4\%\] {
   padding-left: 4%;
   padding-right: 4%;
+}
+
+.text-start {
+  text-align: start;
 }
 
 .font-sans {
@@ -1473,6 +1507,26 @@ video {
     width: 45%;
   }
 
+  .xl\:w-\[65\%\] {
+    width: 65%;
+  }
+
+  .xl\:w-\[34\%\] {
+    width: 34%;
+  }
+
+  .xl\:w-\[35\%\] {
+    width: 35%;
+  }
+
+  .xl\:w-\[55\%\] {
+    width: 55%;
+  }
+
+  .xl\:w-\[150px\] {
+    width: 150px;
+  }
+
   .xl\:max-w-\[1250px\] {
     max-width: 1250px;
   }
@@ -1491,6 +1545,10 @@ video {
 
   .xl\:max-w-\[1390px\] {
     max-width: 1390px;
+  }
+
+  .xl\:max-w-\[1650\] {
+    max-width: 1650;
   }
 
   .xl\:grid-cols-\[47\%_47\%\] {
@@ -1525,8 +1583,16 @@ video {
     grid-template-rows: auto;
   }
 
+  .xl\:flex-row {
+    flex-direction: row;
+  }
+
   .xl\:flex-row-reverse {
     flex-direction: row-reverse;
+  }
+
+  .xl\:items-center {
+    align-items: center;
   }
 
   .xl\:justify-between {
@@ -1550,6 +1616,21 @@ video {
   .xl\:px-\[8\%\] {
     padding-left: 8%;
     padding-right: 8%;
+  }
+
+  .xl\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .xl\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .xl\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .xl\:text-\[35px\] {
@@ -1590,6 +1671,10 @@ video {
 
   .xl\:text-\[40px\] {
     font-size: 40px;
+  }
+
+  .xl\:text-\[48px\] {
+    font-size: 48px;
   }
 
   .xl\:text-\[\] {
